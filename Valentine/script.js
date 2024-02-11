@@ -100,6 +100,6 @@ window.onload = function() {
   if (!hasVisitedIndex2) {
       localStorage.setItem('hasVisitedIndex2', 'true');
   } else {
-      window.location.href = '../index.html';
+      window.location.href = 'https://711ghost.github.io/You-are-my-Valentine/';
   }
 };
