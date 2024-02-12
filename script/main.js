@@ -269,10 +269,10 @@ const animationTimeline = () => {
   // tl.timeScale(2);
 
   // Restart Animation on click
-  const replyBtn = document.getElementById("replay");
-  replyBtn.addEventListener("click", () => {
-    tl.restart();
-  });
+  // const replyBtn = document.getElementById("replay");
+  // replyBtn.addEventListener("click", () => {
+  //   tl.restart();
+  // });
 };
 
 // Import the data to customize and insert them into page
