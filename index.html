@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Happy Valentine :)</title>
+    <style>
+      .center-audio {
+          position: relative;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  </style>
     <link
       rel="stylesheet"
     />
@@ -13,9 +21,6 @@
   </head>
 
   <body>
-    <!-- <audio controls autoplay>
-      <source src="audio.mp3" type="audio/mpeg">
-    </audio> -->
     <div class="container">
       <div class="one">
         <h1 class="one">
@@ -132,7 +137,8 @@
         <p class="last-smile">:)</p>
       </div>
     </div>
-    <audio controls>
+    <p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> A beautiful song for a Beautiful girl. Just play it! </p>
+    <audio class="center-audio" controls autoplay>
       <source src="./audio.mp3" type="audio/mpeg">
     </audio>
   </body>
